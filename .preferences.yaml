@@ -1,0 +1,11 @@
+sync_config:
+  access_token_secret_name: mage_git_access_token
+  auth_type: https
+  branch: null
+  email: fabn_13_11@hotmail.com
+  remote_repo_link: https://github.com/fabr7/mage.git
+  repo_path: /home/src/fabrizzio
+  sync_on_pipeline_run: null
+  sync_on_start: null
+  type: null
+  username: fabr7

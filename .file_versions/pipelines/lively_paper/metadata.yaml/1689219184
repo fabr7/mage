@@ -1,0 +1,46 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - transform
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: load
+  retry_config: null
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: load
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform
+  retry_config: null
+  status: not_executed
+  type: transformer
+  upstream_blocks:
+  - load
+  uuid: transform
+callbacks: []
+conditionals: []
+data_integration: null
+description: null
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: lively paper
+notification_config: {}
+spark_config: {}
+type: python
+updated_at: '2023-07-13 03:33:04'
+uuid: lively_paper
+widgets: []
